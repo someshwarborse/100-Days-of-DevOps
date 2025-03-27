@@ -1,0 +1,140 @@
+# Day 3: Git Fundamentals & Linux Networking
+
+## **Git Fundamentals**
+
+### ✅ Basic Git Commands Practiced
+1️⃣ **Initialize a new Git repository**  
+   ```bash
+   git init
+   ```
+2️⃣ **Check the current status of the repository**  
+   ```bash
+   git status
+   ```
+3️⃣ **Add files to the staging area**  
+   ```bash
+   git add <filename>  # Add a specific file
+   git add .           # Add all files
+   ```
+4️⃣ **Commit changes with a message**  
+   ```bash
+   git commit -m "Added initial project files"
+   ```
+5️⃣ **View commit history**  
+   ```bash
+   git log --oneline --graph
+   ```
+6️⃣ **Create a new branch**  
+   ```bash
+   git branch feature-branch
+   ```
+7️⃣ **Switch to another branch**  
+   ```bash
+   git checkout feature-branch
+   ```
+8️⃣ **Merge a branch into main**  
+   ```bash
+   git checkout main
+   git merge feature-branch
+   ```
+9️⃣ **Resolve merge conflicts (if any) and commit**  
+   ```bash
+   git add .
+   git commit -m "Resolved merge conflicts"
+   ```
+🔟 **Push code to GitHub**  
+   ```bash
+   git push origin main
+   ```
+
+## 🔥 Key Learnings:
+- Understood Git branching and merging.
+- Learned how to resolve merge conflicts.
+- Practiced working with remote repositories.
+
+---
+
+## **Linux Networking & Process Management**
+
+### ✅ Basic Networking Commands
+1️⃣ **Check IP Address:**  
+   ```bash
+   ip a
+   ```
+2️⃣ **Ping a website to test connectivity:**  
+   ```bash
+   ping google.com
+   ```
+3️⃣ **Trace the route to a site:**  
+   ```bash
+   traceroute google.com
+   ```
+4️⃣ **Check active network ports:**  
+   ```bash
+   ss -tulnp
+   ```
+5️⃣ **Find open ports on localhost:**  
+   ```bash
+   nmap localhost
+   ```
+
+### ✅ Process Management Commands
+1️⃣ **List all running processes:**  
+   ```bash
+   ps aux
+   ```
+2️⃣ **Show running processes in real time:**  
+   ```bash
+   top
+   ```
+3️⃣ **Kill a process by ID:**  
+   ```bash
+   kill <PID>
+   ```
+4️⃣ **Restart a service (Example: cron):**  
+   ```bash
+   systemctl restart cron
+   ```
+
+## 🔥 Key Learnings:
+- Understood how to check network configurations.
+- Learned about open ports and services.
+- Practiced managing running processes in Linux.
+
+---
+
+## **📂 Additional: Bash Script for Practice**
+
+### `practice-commands.sh`
+```bash
+#!/bin/bash
+
+echo "Checking network details..."
+ip a
+
+echo "Checking running processes..."
+ps aux | head -10
+
+echo "Checking active network ports..."
+ss -tulnp
+
+echo "Script execution completed!"
+```
+#### Steps to Execute:
+1️⃣ **Make the script executable**  
+   ```bash
+   chmod +x practice-commands.sh
+   ```
+2️⃣ **Run the script**  
+   ```bash
+   ./practice-commands.sh
+   ```
+
+---
+
+### **🚀 Next Steps**
+1️⃣ **Copy these notes into your GitHub repo under** `Day-03-Git-Linux/`
+2️⃣ **Push everything to GitHub**
+3️⃣ **Share the GitHub link once done! 🔥**
+
+
