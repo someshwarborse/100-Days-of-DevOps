@@ -1,3 +1,26 @@
+📅 Day 7: Networking Basics – Subnets, DNS, VPNs, Firewalls
+
+📝 Topics Covered
+
+🔹 IP Addressing & Subnetting:
+
+IPv4 vs. IPv6 – Differences and use cases
+
+Private vs. Public IPs – When to use each
+
+CIDR Notation – How to calculate subnets
+
+Subnetting – Dividing a network into smaller segments
+
+🔹 Domain Name System (DNS):
+
+What is DNS and why is it important?
+
+How DNS works – Recursive vs. authoritative DNS servers
+
+Types of DNS records – A, CNAME, MX, TXT, NS, PTR
+
+AWS Route 53 – Overview and basic configuration
 
 🔹 Firewalls & Security Groups:
 
